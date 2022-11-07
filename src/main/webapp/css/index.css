@@ -1,0 +1,31 @@
+* {
+	margin : 0;
+	padding : 0;
+	color : red;	
+}
+
+body {
+	background-image : linear-gradient(#B005A0D0, #48FE00D0), url("https://media.istockphoto.com/vectors/open-eye-crying-laughing-emoji-vector-id1033878710");
+	height : 100vh;
+}
+
+form {
+	height : 100%;
+	display : flex;
+	justify-content : center;
+	align-items : center;
+}
+
+input {
+	height : 200px;
+	background-color : blue;
+	border: none;
+	border-radius : 50%
+}
+
+input:hover {
+	font-size : 100px;
+	width: 500px;
+	border-radius: 0;
+	background-color : green;
+}

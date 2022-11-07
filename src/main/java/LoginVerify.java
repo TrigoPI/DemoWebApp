@@ -46,6 +46,7 @@ public class LoginVerify extends HttpServlet {
 		out.println("<body>");
 		out.println("Username is :" + uname + "<br/>");
 		out.println("Password is :" + pwd);
+		out.println("salut gros BG <3 <3");
 		out.println("</body>");
 		out.println("</html>");
 	}
